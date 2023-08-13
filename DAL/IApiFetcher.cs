@@ -5,9 +5,11 @@ namespace DAL
 	{
 		Task<List<string>> FetchBreeds();
 
-		Task<List<string>> FetchImages();
+		Task<List<string>> FetchRandomImages();
 
 		Task<List<string>> FetchImagesByBreed(string breed);
+
+		//private Task<T> MakeRequest<T>(string url);
 	}
 }
 

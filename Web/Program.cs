@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Web.Data;
+using DAL;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,16 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 
+builder.Services.addDAL();
+
+
+Log.Logger = new LoggerConfiguration()
+	.Enrich.FromLogContext()
+	.ReadFrom.Configuration(builder.Configuration)
+	.WriteTo.File("logs/log-.txt")
+	.CreateLogger();
+
+builder.Logging.AddSerilog();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

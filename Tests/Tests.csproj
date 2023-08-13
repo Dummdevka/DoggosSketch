@@ -24,5 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj" />
+    <ProjectReference Include="..\Web\Web.csproj" />
   </ItemGroup>
 </Project>

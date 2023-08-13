@@ -1,10 +1,12 @@
 ﻿using System;
+using Microsoft.Extensions.DependencyInjection;
+
 namespace DAL
 {
-	public class DependencyInjection
+	public static class DependencyInjection
 	{
-		public DependencyInjection()
-		{
+		public static IServiceCollection addDAL(this IServiceCollection services) {
+			return services.AddSingleton<IApiFetcher, ApiFetcher>();
 		}
 	}
 }
