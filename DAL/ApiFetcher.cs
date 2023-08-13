@@ -10,17 +10,17 @@ namespace DAL
 	public class ApiFetcher : IApiFetcher
 	{
 		private readonly IConfiguration _config;
-		private ILogger<IApiFetcher> _logger;
+		//private ILogger<IApiFetcher> _logger;
 		private string baseUrl {
 			get {
 				return _config.GetSection("ApiUrl").Value;
 			}
 		}
 
-		public ApiFetcher(IConfiguration config, ILogger<IApiFetcher> logger )
+		public ApiFetcher(IConfiguration config)
 		{
 			_config = config;
-			_logger = logger;
+			//_logger = logger;
 		}
 
 		public async Task<List<string>> FetchBreeds()

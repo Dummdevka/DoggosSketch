@@ -3812,3 +3812,501 @@ System.Exception: https://dog.ceo/api/breed/borzoiimages
 2023-08-13 11:35:41.173 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 26.4168ms
 2023-08-13 11:35:41.224 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=rSa2_7Gwpd3qLSf8fEys0g - -
 2023-08-13 11:35:41.224 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:01:49.729 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-13 12:01:49.730 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=rSa2_7Gwpd3qLSf8fEys0g - - - 101 - - 1568518.4478ms
+2023-08-13 12:01:49.850 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryM64yPM0C4VhH6TfW 359
+2023-08-13 12:01:49.851 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:01:49.875 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:01:49.875 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryM64yPM0C4VhH6TfW 359 - 200 0 - 25.0009ms
+2023-08-13 12:11:30.572 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:11:30.875 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:11:30.876 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:11:30.878 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:11:30.879 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:11:30.880 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:11:32.152 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:11:32.185 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:11:32.194 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:11:32.201 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:11:32.201 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:11:32.591 +03:00 [INF] Executed page /_Host in 393.9852ms
+2023-08-13 12:11:32.591 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:11:32.596 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 448.5264ms
+2023-08-13 12:11:32.679 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:11:32.680 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:11:32.689 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:11:32.689 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:11:32.690 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 11.1440ms
+2023-08-13 12:11:32.690 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 9.5960ms
+2023-08-13 12:11:32.742 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:11:32.742 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:11:32.840 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:11:32.840 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:11:32.933 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 191.5172ms
+2023-08-13 12:11:32.934 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 142.8816ms
+2023-08-13 12:11:32.934 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:11:32.940 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:11:32.940 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 5.4780ms
+2023-08-13 12:11:32.948 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:11:32.951 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:11:32.955 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:11:32.955 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 7.0882ms
+2023-08-13 12:11:32.984 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:11:32.984 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:11:32.984 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.6291ms
+2023-08-13 12:11:33.000 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:11:33.002 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:11:33.014 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:11:33.014 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 14.7655ms
+2023-08-13 12:11:33.100 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=WSAnQwTyqySNPTaZFgiWiA - -
+2023-08-13 12:11:33.100 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:16:19.045 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:16:19.459 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:16:19.460 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:16:19.462 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:16:19.463 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:16:19.463 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:16:20.847 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:16:20.865 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:16:20.880 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:16:20.888 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:16:20.889 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:16:21.319 +03:00 [INF] Executed page /_Host in 436.6597ms
+2023-08-13 12:16:21.320 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:16:21.324 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 477.7557ms
+2023-08-13 12:16:21.417 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:16:21.418 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:16:21.428 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:16:21.428 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:16:21.428 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 10.2357ms
+2023-08-13 12:16:21.428 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 11.0285ms
+2023-08-13 12:16:21.430 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:16:21.430 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:16:21.431 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:16:21.431 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:16:21.431 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 1.6059ms
+2023-08-13 12:16:21.431 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 0.8579ms
+2023-08-13 12:16:21.562 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:16:21.584 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:16:21.585 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 48.6590ms
+2023-08-13 12:16:21.591 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:16:21.593 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:16:21.595 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:16:21.595 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 4.3869ms
+2023-08-13 12:16:21.659 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:16:21.660 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:16:21.660 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.6666ms
+2023-08-13 12:16:21.677 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:16:21.680 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:16:21.691 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:16:21.691 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 14.3925ms
+2023-08-13 12:16:21.755 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=Q9oMBBdMVXlsFdGARcfAYA - -
+2023-08-13 12:16:21.755 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:16:43.801 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:16:44.099 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:16:44.100 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:16:44.102 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:16:44.102 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:16:44.103 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:16:45.027 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:16:45.045 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:16:45.054 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:16:45.055 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 29.3627ms
+2023-08-13 12:16:45.107 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=FP9IqF5NqlkH0YxqG8FzHg - -
+2023-08-13 12:16:45.108 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:16:45.314 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:16:45.315 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:16:45.325 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:16:45.335 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:16:45.337 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:16:45.704 +03:00 [INF] Executed page /_Host in 375.5764ms
+2023-08-13 12:16:45.705 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:16:45.707 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 392.9758ms
+2023-08-13 12:16:45.794 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:16:45.794 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:16:45.870 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:16:45.870 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:16:45.918 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:16:45.919 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:16:45.920 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:16:45.920 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 125.7252ms
+2023-08-13 12:16:45.920 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 125.9031ms
+2023-08-13 12:16:45.921 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 4.1231ms
+2023-08-13 12:16:45.922 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:16:45.922 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 2.4592ms
+2023-08-13 12:16:45.924 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:16:45.924 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:16:45.924 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.4443ms
+2023-08-13 12:16:45.970 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:16:45.972 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:16:45.973 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:16:45.973 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:16:45.974 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.9782ms
+2023-08-13 12:16:45.988 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:16:45.988 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 17.9434ms
+2023-08-13 12:16:46.002 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:16:46.002 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:16:46.003 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:16:46.003 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 0.9502ms
+2023-08-13 12:16:46.132 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=y1JwFeyWBQinaGqqRBVaPQ - -
+2023-08-13 12:16:46.133 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:17:01.366 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-13 12:17:01.367 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=y1JwFeyWBQinaGqqRBVaPQ - - - 101 - - 15234.5859ms
+2023-08-13 12:17:01.435 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryAi3ta8nVnD6kVJ7N 359
+2023-08-13 12:17:01.436 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:17:01.451 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:17:01.451 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryAi3ta8nVnD6kVJ7N 359 - 200 0 - 16.5940ms
+2023-08-13 12:18:20.252 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:18:20.595 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:18:20.595 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:18:20.597 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:18:20.598 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:18:20.598 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:18:21.917 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:18:21.935 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:18:21.943 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:18:21.949 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:18:21.951 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:18:22.416 +03:00 [INF] Executed page /_Host in 470.099ms
+2023-08-13 12:18:22.417 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:18:22.422 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 508.8059ms
+2023-08-13 12:18:22.528 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:18:22.555 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:18:22.638 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:18:22.638 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:18:22.691 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:18:22.691 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:18:22.691 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:18:22.692 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 163.9392ms
+2023-08-13 12:18:22.692 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 54.3653ms
+2023-08-13 12:18:22.692 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 137.3000ms
+2023-08-13 12:18:22.697 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dummdevka/Projects/DoggosSketch/Web/wwwroot/css/site.css'
+2023-08-13 12:18:22.697 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 200 2988 text/css 59.5968ms
+2023-08-13 12:18:22.703 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:18:22.703 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:18:22.703 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.5290ms
+2023-08-13 12:18:22.709 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:18:22.711 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:18:22.713 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:18:22.713 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 3.8126ms
+2023-08-13 12:18:22.756 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:18:22.757 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:18:22.757 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.5890ms
+2023-08-13 12:18:22.769 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:18:22.771 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:18:22.779 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:18:22.779 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 9.6275ms
+2023-08-13 12:18:22.871 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=DoivFElsnqjcNhI6LsBVjQ - -
+2023-08-13 12:18:22.871 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:18:52.010 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:18:52.346 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:18:52.347 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:18:52.349 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:18:52.350 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:18:52.350 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:18:53.623 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:18:53.642 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:18:53.653 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:18:53.660 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:18:53.660 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:18:53.880 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:18:53.882 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:18:53.889 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:18:53.890 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 9.6323ms
+2023-08-13 12:18:53.918 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=Vjw56bGTltnbsjm4mEpZgw - -
+2023-08-13 12:18:53.919 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:18:53.997 +03:00 [INF] Executed page /_Host in 342.278ms
+2023-08-13 12:18:53.998 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:18:54.000 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 378.8972ms
+2023-08-13 12:18:54.112 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:18:54.112 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:18:54.125 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:18:54.126 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 13.1599ms
+2023-08-13 12:18:54.128 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:18:54.128 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:18:54.128 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 0.3991ms
+2023-08-13 12:18:54.129 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:18:54.129 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:18:54.129 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 0.2996ms
+2023-08-13 12:18:54.135 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/dummdevka/Projects/DoggosSketch/Web/wwwroot/css/site.css'
+2023-08-13 12:18:54.183 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 200 2988 text/css 70.8902ms
+2023-08-13 12:18:54.184 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:18:54.185 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:18:54.185 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.8151ms
+2023-08-13 12:18:54.190 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:18:54.191 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:18:54.193 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:18:54.193 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 2.7582ms
+2023-08-13 12:18:54.217 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:18:54.217 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:18:54.217 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:18:54.217 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:18:54.217 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.3259ms
+2023-08-13 12:18:54.217 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:18:54.217 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 0.4924ms
+2023-08-13 12:18:54.271 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=iUo3qP1DVvQ3ch-_ITlmww - -
+2023-08-13 12:18:54.271 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:23:28.265 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:23:28.568 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:23:28.568 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:23:28.570 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:23:28.571 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:23:28.571 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:23:29.915 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:23:29.915 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:23:29.930 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:23:29.930 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:23:29.940 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:23:29.940 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:23:29.942 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 27.4522ms
+2023-08-13 12:23:29.973 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:23:29.974 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:23:29.997 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=Em5Fvd1ThD4CvL4VBEg7_w - -
+2023-08-13 12:23:29.998 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:23:30.391 +03:00 [INF] Executed page /_Host in 448.1246ms
+2023-08-13 12:23:30.391 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:23:30.394 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 480.3579ms
+2023-08-13 12:23:30.526 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:23:30.526 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:23:30.543 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:23:30.543 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:23:30.543 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 17.2823ms
+2023-08-13 12:23:30.543 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 17.2822ms
+2023-08-13 12:23:30.544 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:23:30.544 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:23:30.546 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:23:30.546 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:23:30.547 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 2.0584ms
+2023-08-13 12:23:30.547 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 2.0584ms
+2023-08-13 12:23:30.616 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:23:30.619 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:23:30.667 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 51.3970ms
+2023-08-13 12:23:30.671 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:23:30.673 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:23:30.676 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:23:30.676 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 5.0590ms
+2023-08-13 12:23:30.700 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:23:30.700 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:23:30.700 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.6959ms
+2023-08-13 12:23:30.716 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:23:30.717 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:23:30.717 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:23:30.718 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 1.4538ms
+2023-08-13 12:23:30.749 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=5qq0GNzgRJflvFij4XtnKQ - -
+2023-08-13 12:23:30.749 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:25:25.024 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:25:25.390 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:25:25.391 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:25:25.393 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:25:25.394 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:25:25.395 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:25:26.037 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:25:26.055 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:25:26.064 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:25:26.065 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 29.0882ms
+2023-08-13 12:25:26.190 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=z4H_lnEnUMpiFnrACP1UIg - -
+2023-08-13 12:25:26.191 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:25:26.643 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:25:26.644 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:25:26.652 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:25:26.659 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:25:26.660 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:25:27.051 +03:00 [INF] Executed page /_Host in 396.9448ms
+2023-08-13 12:25:27.051 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:25:27.053 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 410.7317ms
+2023-08-13 12:25:27.150 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:25:27.151 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:25:27.219 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:25:27.219 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:25:27.219 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 68.9469ms
+2023-08-13 12:25:27.219 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 68.5699ms
+2023-08-13 12:25:27.220 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:25:27.220 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:25:27.221 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:25:27.221 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:25:27.221 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 0.5392ms
+2023-08-13 12:25:27.221 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 0.9652ms
+2023-08-13 12:25:27.223 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:25:27.224 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:25:27.224 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.2816ms
+2023-08-13 12:25:27.270 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:25:27.270 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:25:27.270 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:25:27.271 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 1.5463ms
+2023-08-13 12:25:27.277 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:25:27.279 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:25:27.279 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 9.2864ms
+2023-08-13 12:25:27.296 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:25:27.296 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:25:27.296 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:25:27.296 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 0.5749ms
+2023-08-13 12:25:27.356 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=9DIlPC9P-7jSZuOAWxsgCA - -
+2023-08-13 12:25:27.356 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:26:07.832 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-13 12:26:07.833 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-13 12:26:07.847 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=z4H_lnEnUMpiFnrACP1UIg - - - 101 - - 41653.6293ms
+2023-08-13 12:26:07.848 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=9DIlPC9P-7jSZuOAWxsgCA - - - 101 - - 40487.5083ms
+2023-08-13 12:26:10.958 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:26:10.960 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:26:10.961 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:26:10.961 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 3.0768ms
+2023-08-13 12:26:11.015 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=G3MKcrB07aCPZVycQabYUg - -
+2023-08-13 12:26:11.015 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-13 12:33:43.293 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryp0xWFHQ8PEDeeTZo 359
+2023-08-13 12:33:43.296 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:33:43.348 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:33:43.349 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryp0xWFHQ8PEDeeTZo 359 - 200 0 - 56.5688ms
+2023-08-13 12:33:44.011 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryW5Xflx1q3Jd2KRL9 359
+2023-08-13 12:33:44.011 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:33:44.012 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:33:44.012 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryW5Xflx1q3Jd2KRL9 359 - 200 0 - 1.1865ms
+2023-08-13 12:33:44.663 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryUJbyXQ10haCAgsNG 359
+2023-08-13 12:33:44.664 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:33:44.664 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:33:44.664 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryUJbyXQ10haCAgsNG 359 - 200 0 - 1.1482ms
+2023-08-13 12:33:45.245 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundary4wahWg7UKzWeexn1 359
+2023-08-13 12:33:45.245 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-13 12:33:45.245 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-13 12:33:45.245 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundary4wahWg7UKzWeexn1 359 - 200 0 - 1.4012ms
+2023-08-13 12:34:27.924 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:34:27.967 +03:00 [INF] No action descriptors found. This may indicate an incorrectly configured application or missing application parts. To learn more, visit https://aka.ms/aspnet/mvc/app-parts
+2023-08-13 12:34:28.293 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:34:28.293 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:34:28.295 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:34:28.296 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:34:28.296 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:34:29.137 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:34:29.164 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:34:29.172 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 36.3747ms
+2023-08-13 12:34:29.536 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:34:29.542 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:34:29.564 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 500 - text/html;+charset=utf-8 27.6112ms
+2023-08-13 12:34:49.991 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:34:50.001 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:34:50.002 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 12.1674ms
+2023-08-13 12:35:11.018 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:35:11.023 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:35:11.025 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 7.7535ms
+2023-08-13 12:35:31.981 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:35:32.014 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:35:32.015 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 34.2562ms
+2023-08-13 12:35:53.001 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:35:53.008 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:35:53.009 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 8.2167ms
+2023-08-13 12:36:14.026 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:36:14.032 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:36:14.034 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 8.0084ms
+2023-08-13 12:36:34.999 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:36:35.003 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:36:35.005 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 6.3190ms
+2023-08-13 12:36:56.034 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:36:56.044 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot find the fallback endpoint specified by route values: { page: /_Host, area:  }.
+   at Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.DynamicPageEndpointMatcherPolicy.ApplyAsync(HttpContext httpContext, CandidateSet candidates)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcher.SelectEndpointWithPoliciesAsync(HttpContext httpContext, IEndpointSelectorPolicy[] policies, CandidateSet candidateSet)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatch|8_1(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task matchTask)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-08-13 12:36:56.046 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 500 - text/plain;+charset=utf-8 12.5149ms
+2023-08-13 12:38:37.529 +03:00 [INF] User profile is available. Using '/Users/dummdevka/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-08-13 12:38:37.908 +03:00 [INF] Now listening on: https://localhost:7285
+2023-08-13 12:38:37.908 +03:00 [INF] Now listening on: http://localhost:5200
+2023-08-13 12:38:37.910 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-08-13 12:38:37.911 +03:00 [INF] Hosting environment: Development
+2023-08-13 12:38:37.912 +03:00 [INF] Content root path: /Users/dummdevka/Projects/DoggosSketch/Web
+2023-08-13 12:38:39.265 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/ - -
+2023-08-13 12:38:39.281 +03:00 [INF] Executing endpoint '/_Host'
+2023-08-13 12:38:39.289 +03:00 [INF] Route matched with {page = "/_Host"}. Executing page /_Host
+2023-08-13 12:38:39.296 +03:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2023-08-13 12:38:39.297 +03:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2023-08-13 12:38:39.840 +03:00 [INF] Executed page /_Host in 549.0726ms
+2023-08-13 12:38:39.841 +03:00 [INF] Executed endpoint '/_Host'
+2023-08-13 12:38:39.843 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/ - - - 200 - text/html;+charset=utf-8 578.9020ms
+2023-08-13 12:38:40.076 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - -
+2023-08-13 12:38:40.076 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/Web.styles.css - -
+2023-08-13 12:38:40.103 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/site.css - -
+2023-08-13 12:38:40.129 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - -
+2023-08-13 12:38:40.149 +03:00 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2023-08-13 12:38:40.149 +03:00 [INF] The file /Web.styles.css was not modified
+2023-08-13 12:38:40.149 +03:00 [INF] The file /_framework/blazor.server.js was not modified
+2023-08-13 12:38:40.149 +03:00 [INF] The file /css/site.css was not modified
+2023-08-13 12:38:40.150 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_framework/blazor.server.js - - - 304 - text/javascript 21.7209ms
+2023-08-13 12:38:40.150 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/site.css - - - 304 - text/css 47.3912ms
+2023-08-13 12:38:40.150 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/bootstrap/bootstrap.min.css - - - 304 - text/css 74.0739ms
+2023-08-13 12:38:40.151 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/Web.styles.css - - - 304 - text/css 74.2085ms
+2023-08-13 12:38:40.155 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - -
+2023-08-13 12:38:40.155 +03:00 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2023-08-13 12:38:40.155 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/css/open-iconic/font/css/open-iconic-bootstrap.min.css - - - 304 - text/css 0.3838ms
+2023-08-13 12:38:40.179 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor/initializers - -
+2023-08-13 12:38:40.180 +03:00 [INF] Executing endpoint 'Blazor initializers'
+2023-08-13 12:38:40.182 +03:00 [INF] Executed endpoint 'Blazor initializers'
+2023-08-13 12:38:40.182 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor/initializers - - - 200 - application/json;+charset=utf-8 2.7359ms
+2023-08-13 12:38:40.201 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:38:40.201 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:38:40.202 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.5087ms
+2023-08-13 12:38:40.215 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0
+2023-08-13 12:38:40.216 +03:00 [INF] Executing endpoint '/_blazor/negotiate'
+2023-08-13 12:38:40.221 +03:00 [INF] Executed endpoint '/_blazor/negotiate'
+2023-08-13 12:38:40.221 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 6.1611ms
+2023-08-13 12:38:40.238 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/favicon.png - -
+2023-08-13 12:38:40.238 +03:00 [INF] The file /favicon.png was not modified
+2023-08-13 12:38:40.239 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/favicon.png - - - 304 - image/png 0.4594ms
+2023-08-13 12:38:40.257 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=MCtp9JjN4eILzLGSrBJpXg - -
+2023-08-13 12:38:40.257 +03:00 [INF] Executing endpoint '/_blazor'

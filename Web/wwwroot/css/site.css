@@ -67,3 +67,9 @@ a, .btn-link {
         content: "An error has occurred."
     }
 
+.doggos-img {
+    max-height:520px;
+    height: auto;
+    width: auto;
+}
+
