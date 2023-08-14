@@ -4810,3 +4810,27 @@ System.InvalidOperationException: Cannot provide a value for property '_cache' o
 2023-08-14 13:01:17.517 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 2.3199ms
 2023-08-14 13:01:17.570 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7285/_blazor?id=ilYs_jjFq99DwI7GiygzNQ - -
 2023-08-14 13:01:17.571 +03:00 [INF] Executing endpoint '/_blazor'
+2023-08-14 13:02:29.528 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-14 13:02:29.529 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=ilYs_jjFq99DwI7GiygzNQ - - - 101 - - 71959.4182ms
+2023-08-14 13:02:29.637 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryCa6O1JceqISXuvvp 359
+2023-08-14 13:02:29.638 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-14 13:02:29.660 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-14 13:02:29.660 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryCa6O1JceqISXuvvp 359 - 200 0 - 23.5883ms
+2023-08-14 13:02:30.403 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryJEUk84DN2JfnQKEJ 359
+2023-08-14 13:02:30.403 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-14 13:02:30.404 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-14 13:02:30.404 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryJEUk84DN2JfnQKEJ 359 - 200 0 - 1.4607ms
+2023-08-14 13:02:30.775 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundarygIqZOBhiBh3e5UwI 359
+2023-08-14 13:02:30.775 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-14 13:02:30.776 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-14 13:02:30.776 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundarygIqZOBhiBh3e5UwI 359 - 200 0 - 0.7659ms
+2023-08-14 13:02:31.106 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryw4C8HnKmkoEFFeWB 359
+2023-08-14 13:02:31.106 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-14 13:02:31.106 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-14 13:02:31.107 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryw4C8HnKmkoEFFeWB 359 - 200 0 - 0.8570ms
+2023-08-14 13:02:31.416 +03:00 [INF] Executed endpoint '/_blazor'
+2023-08-14 13:02:31.417 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7285/_blazor?id=j0CkQn61WYYXxMLgqG14YA - - - 101 - - 75286.3969ms
+2023-08-14 13:02:31.420 +03:00 [INF] Request starting HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryvcUH0c8IgpBAKq0K 359
+2023-08-14 13:02:31.420 +03:00 [INF] Executing endpoint 'Blazor disconnect'
+2023-08-14 13:02:31.421 +03:00 [INF] Executed endpoint 'Blazor disconnect'
+2023-08-14 13:02:31.421 +03:00 [INF] Request finished HTTP/1.1 POST https://localhost:7285/_blazor/disconnect multipart/form-data;+boundary=----WebKitFormBoundaryvcUH0c8IgpBAKq0K 359 - 200 0 - 1.0571ms
