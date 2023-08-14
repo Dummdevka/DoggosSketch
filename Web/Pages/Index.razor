@@ -1,6 +1,7 @@
 ﻿@page "/"
 
 @using DAL;
+@using Services.Caching;
 
 <PageTitle>Index</PageTitle>
 
@@ -11,8 +12,6 @@
 }
 else
 {
-
-
     @if (!imageShown)
     {
         <div class="d-flex flex-row justify-items-evenly">
@@ -79,15 +78,35 @@ else
     [Inject]
     private IApiFetcher _apiFetcher { get; set; }
 
+    [Inject]
+    private IConfiguration _config { get; set; }
+
+    [Inject]
+    private ICachingService _cache { get; set; }
+
     protected override async Task OnInitializedAsync()
     {
-        breeds = await _apiFetcher.FetchBreeds();
+        await LoadBreeds();
+    }
+
+    protected async Task LoadBreeds() {
+        string key = GetKey("breeds");
+        breeds = await _cache.GetValueAsync<List<string>>(key);
+        if(breeds is null) {
+            breeds = await _apiFetcher.FetchBreeds();
+            await _cache.SetValueAsync<List<string>>(key, breeds);
+        }
     }
 
     protected async Task LoadImages() {
-        images = selectedBreed == "Any" ?
-            await _apiFetcher.FetchRandomImages() :
-            await _apiFetcher.FetchImagesByBreed(selectedBreed);
+        string key = GetKey(selectedBreed);
+        images = await _cache.GetValueAsync<List<string>>(key);
+        if(images is null) {
+            images = selectedBreed == "Any" ?
+                  await _apiFetcher.FetchRandomImages() :
+                  await _apiFetcher.FetchImagesByBreed(selectedBreed);
+            await _cache.SetValueAsync<List<string>>(key, images);
+        }
         var rnd = new Random();
         images = images.OrderBy(item => rnd.Next()).ToList();
         imageShown = true;
@@ -135,5 +154,9 @@ else
             StateHasChanged();
         });
 
-    } 
+    }
+
+    private string GetKey(string prefix) {
+        return _config.GetSection("RedisPrefix").Value + $"_{prefix}_" + DateTime.Now.ToString("yyyyMMdd_hh");
+    }
     }

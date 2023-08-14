@@ -1,24 +1,31 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using Web.Data;
 using DAL;
 using Serilog;
+using Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
-builder.Services.AddSingleton<WeatherForecastService>();
 
 builder.Services.addDAL();
 
-
+//Logging
 Log.Logger = new LoggerConfiguration()
 	.Enrich.FromLogContext()
 	.ReadFrom.Configuration(builder.Configuration)
 	.WriteTo.File("logs/log-.txt")
 	.CreateLogger();
+
+//Caching
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+	options.Configuration = builder.Configuration.GetConnectionString("Redis");
+	options.InstanceName = "doggossketch_";
+});
+builder.Services.addServices();
 
 builder.Logging.AddSerilog();
 var app = builder.Build();

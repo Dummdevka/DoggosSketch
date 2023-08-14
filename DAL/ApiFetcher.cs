@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Text.Json;
-using DAL.Models;
+using DAL.Responses;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
