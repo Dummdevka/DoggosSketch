@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text.Json;
 using Microsoft.Extensions.Caching.Distributed;
+using Microsoft.Extensions.Configuration;
 using StackExchange.Redis;
 
 namespace Services.Caching
@@ -10,10 +11,10 @@ namespace Services.Caching
 		private readonly IDistributedCache _cache;
 		private readonly IConnectionMultiplexer _multiplexer;
 
-		public CachingService(IDistributedCache cache)
+		public CachingService(IDistributedCache cache, IConfiguration config)
 		{
 			_cache = cache;
-			_multiplexer = ConnectionMultiplexer.Connect("localhost:5002");
+			_multiplexer = ConnectionMultiplexer.Connect(config.GetConnectionString("Redis"));
 		}
 
 		public async Task<T?> GetValueAsync<T>(string key, CancellationToken cancellationToken = default)
